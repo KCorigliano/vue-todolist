@@ -1,0 +1,52 @@
+body{
+    background-color: grey;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+}
+
+button:hover{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px #ccc;
+    transition: 0.5s;
+}
+
+.remove-btn{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: end;
+}
+
+.list{
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.list:hover{
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+.done{
+    text-decoration:line-through;
+}
+
+.green{
+    background-color: green;
+}
+
+.grey{
+    background-color: #ccc;
+}
